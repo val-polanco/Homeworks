@@ -1,0 +1,27 @@
+{
+  "name": "Contactos React",
+  "short_name": "Contactos",
+  "description": "Aplicación de contactos desarrollada en React",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
+
+{
+  "name": "Contactos React",
+  "short_name": "Contactos",
+  "description": "Aplicación de contactos desarrollada en React",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  
+"icons": [
+  {
+    "src": "/images/iconcontacto.png",
+    "sizes": "any",
+    "type": "image/png"
+  }
+]
+}
