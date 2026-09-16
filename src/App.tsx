@@ -3,7 +3,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 
-import Contactos from './pages/Contactos';
+import TaskManager from './pages/TaskManager';
 
 import '@ionic/react/css/core.css';
 import '@ionic/react/css/normalize.css';
@@ -16,12 +16,19 @@ import '@ionic/react/css/display.css';
 
 import './theme/variables.css';
 
+
 setupIonicReact();
 
+
 const App: React.FC = () => (
+
   <IonApp>
-    <Contactos />
+
+    <TaskManager />
+
   </IonApp>
+
 );
+
 
 export default App;
